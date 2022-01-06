@@ -65,8 +65,18 @@ body{
 .color1{
     color: #FFCB2A;
 }
+.color1:hover{
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
 .color2{
     color: #fff;
+}
+.color2:hover{
+    color: #FFCB2A;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 .buttonSignIn{
     background-color: #FA8F04;
@@ -81,6 +91,12 @@ body{
     font-size: 17px;
     font-weight: 400;
     color: #fff;
+}
+.buttonSignIn:hover{
+    background-color: #C6640F;
+    border-color: #C6640F;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 .buttonSignIn2{
     background-color: #FA8F04;
@@ -112,8 +128,21 @@ body{
     color: #fff;
     margin-bottom: 20px;
 }
+.buttonEnroll:hover{
+    background-color: #C6640F;
+    border-color: #C6640F;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
 .comingSoon{
     font-size: 10px;
+}
+.comingSoon:hover{
+    color:#FFCB2A;
+    cursor:auto;
+}
+.footerImage2{
+    display: none;
 }
 .competitonTitle{
     text-align: center;
@@ -194,10 +223,7 @@ body{
     justify-content: space-around !important;
 }
 .saleOuter{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: -280px;
-    margin-right: 20px;
+    margin-left: -150px;
 }
 .InnerDivCenter{
     display: flex;
@@ -222,10 +248,11 @@ body{
     background-color: #EB5757;
 }
 .compContent{
-    width: 330px;
+    width: 330px; 
     position:relative;
-    margin-top: 195px;
+    margin-top: -25px;
     padding-top: 8px;
+    padding-right: 7px;
     background-color: #fff;
     border-bottom-left-radius: 37px;
     border-bottom-right-radius: 37px;
@@ -255,9 +282,6 @@ body{
     height: max-content;
     margin-bottom: 50px;
     filter: drop-shadow(0px 19px 32px rgba(0, 26, 255, 0.08));
-}
-.CompInfo{
-    padding-left: 45px !important;
 }
 .Circle1{
     background: linear-gradient(329.05deg, #FE8126 1.63%, #FBC10B 90.72%), #DF23FE;
@@ -295,6 +319,12 @@ svg{
     margin-top: 7px;
     margin-left: 30px;
 }
+.ContactFea:hover{
+    color:#FE8126;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
 .ContactTitle{
     color: #F2C94C;
     font-size: 17px;
@@ -314,6 +344,11 @@ svg{
     font-size: 15px;
     margin-top: 50px;
     margin-left: 30px;
+}
+.conditions:hover{
+    color:#FE8126;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 .FooterText{
     color: #fff;
@@ -383,9 +418,6 @@ svg{
     .buttonSignIn{
         margin-left: 130px;
     }
-    .saleOuter{
-        margin-right: 35px;
-    }
     .footerContent{
         padding-left: 40px;
         padding-right: 40px;
@@ -398,14 +430,8 @@ svg{
     .buttonSignIn{
         margin-left: 100px;
     }
-    .CompInfo{
-        padding-left: 80px !important;
-    }
     .compContent, .comp, .line{
         width:350px;
-    }
-    .saleOuter{
-        margin-right: 72px;
     }
     .Circle1{
         width: 85px;
@@ -510,14 +536,8 @@ svg{
     .buttonSignIn{
         margin-left: 70px;  
     }
-    .CompInfo{
-        padding-left: 10px !important;
-    }
     .compContent, .comp, .line{
         width:350px;
-    }
-    .saleOuter{
-        margin-right: -2px;
     }
     .Circle1{
         width: 85px;
@@ -616,25 +636,441 @@ svg{
         font-size: 12px;
         margin-left: 10px;
     }
-
+    .compContent, .comp, .line{
+        width:320px;
+    }
+    .Circle1{
+        width: 50px;
+        height: 100px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 50px;
+        height: 100px;
+        border-radius: 150px 0px 0px 150px;
+    }
 }
 @media (max-width:800px) {
+    .Circle1{
+        width: 40px;
+        height: 80px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 40px;
+        height: 80px;
+        border-radius: 150px 0px 0px 150px;
+    }
 }
-@media (max-width:750px) {
+@media (max-width:767px) {
+    .image1{
+        margin-left: 70px;
+    }
+    .trophy1{
+        margin-left: 20px;
+    }
+    .trophy2{
+        margin-left: -20px;
+    }
+    .medal{
+        margin-left: 100px;
+    }
+    .star1{
+        margin-left: 30px;
+    }
+    .star2{
+        margin-left: 180px;
+    }
+    .star3{
+        margin-left: 10px;
+    }
+    .star4{
+        margin-left: 120px;
+    }
+    .star5{
+        margin-left: 100px;
+    }
+    .compContent, .comp, .line{
+        width:370px;
+    }
+    .Circle1{
+        width: 90px;
+        height: 180px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 90px;
+        height: 180px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .checkBtn{
+        margin-left: 530px;
+    }
 }
 @media (max-width:700px) {
+    .checkBtn{
+        margin-left: 480px;
+    }
+    .star2{
+        margin-left: 120px;
+    }
+    .image4{
+        margin-left: 50px;
+    }
 }
 @media (max-width:650px) {
+    .image1{
+        margin-left: 40px;
+    }
+    .image2{
+        margin-left: 20px;
+    }
+    .checkBtn{
+        margin-left: 440px;
+    }
+    .star2{
+        margin-left: 120px;
+    }
+    .trophy1{
+        margin-left: 10px;
+    }
+    .trophy2{
+        margin-left: -40px;
+    }
+    .medal{
+        margin-left: 100px;
+    }
+    .star1{
+        margin-left: 30px;
+    }
+    .star2{
+        margin-left: 120px;
+    }
+    .star3{
+        margin-left: 10px;
+    }
+    .star4{
+        margin-left: 100px;
+    }
+    .star5{
+        margin-left: 80px;
+    }
+    .Circle1{
+        width: 70px;
+        height: 140px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 70px;
+        height: 140px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .conditionsOuter{
+        margin-left: 30px;
+    }
+    .FooterText{
+        padding-left: 60px;
+        padding-right: 10px;
+    }
 }
 @media (max-width:600px) {
+    .checkBtn{
+        margin-left: 380px;
+    }
+    .star2{
+        margin-left: 120px;
+    }
+    .trophy1{
+        margin-left: 10px;
+    }
+    .trophy2{
+        margin-left: -40px;
+    }
+    .medal{
+        margin-left: 80px;
+    }
+    .star1{
+        margin-left: 30px;
+    }
+    .star2{
+        margin-left: 120px;
+    }
+    .star3{
+        margin-left: 10px;
+    }
+    .star4{
+        margin-left: 80px;
+    }
+    .star5{
+        margin-left: 80px;
+    }
+    .Circle1{
+        width: 70px;
+        height: 140px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 70px;
+        height: 140px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .conditionsOuter{
+        margin-left: 30px;
+    }
+    .FooterText{
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+    .image2{
+        margin-right: 15px;
+    }
 }
 @media (max-width:550px) {
+    .image2{
+        width: 90px;
+        height: 35px;
+        margin-right: 15px;
+    }
+    .header1Title{
+        margin-left: -30px;
+    }
+    .image1{
+        margin-left: 10px;
+    }
+    .checkBtn{
+        margin-left: 350px;
+    }
+    .star2{
+        margin-left: 100px;
+    }
+    .medal{
+        margin-left: 60px;
+    }
+    .Circle1{
+        width: 50px;
+        height: 100px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 50px;
+        height: 100px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .compContent, .comp, .line{
+        width:350px;
+    }
+    .image4{
+        height: 80px;
+        width: 100px;
+        margin-top: 70px;
+    }
+    .conditionsOuter{
+        margin-left: 20px;
+    }
 }
 @media (max-width:500px) {
+    .checkBtn{
+        margin-left: 290px;
+    }
+    .trophy1{
+        margin-left: 10px;
+        height: 70px;
+    }
+    .trophy2{
+        margin-left: -20px;
+        height: 70px;
+        margin-top: 120px;
+    }
+    .medal{
+        margin-left: 50px;
+        height: 50px;
+    }
+    .star1{
+        margin-left: 10px;
+    }
+    .star2{
+        margin-left: 90px;
+    }
+    .star3{
+        margin-left: 10px;
+    }
+    .star4{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .star5{
+        margin-left: 60px;
+    }
+    .Circle1{
+        width: 40px;
+        height: 80px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 40px;
+        height: 80px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .compContent, .comp, .line{
+        width:330px;
+    }
+    .image4{
+        height: 80px;
+        width: 100px;
+        margin-top: 70px;
+    }
+    .conditionsOuter{
+        margin-left: 20px;
+    }
+    .footerImage{
+        display: none;
+    }
+    .footerImage2{
+        display: block;
+        margin-left: 40px;
+    }
+    .image2{
+        width: 80px;
+        height: 35px;
+        margin-right: 0px;
+    }
+    .header1Title{
+        margin-left: -30px;
+    }
+    .image1{
+        margin-left: 10px;
+    }
 }
 @media (max-width:450px) {
+    .checkBtn{
+        margin-left: 230px;
+    }
+    .trophy1{
+        margin-left: 10px;
+        height: 60px;
+    }
+    .trophy2{
+        margin-left: -20px;
+        height: 60px;
+        margin-top: 120px;
+    }
+    .medal{
+        margin-left: 30px;
+        height: 50px;
+    }
+    .star1{
+        margin-left: 10px;
+    }
+    .star2{
+        margin-left: 90px;
+    }
+    .star3{
+        margin-left: 10px;
+    }
+    .star4{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .star5{
+        margin-left: 60px;
+    }
+    .Circle1{
+        width: 40px;
+        height: 80px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 40px;
+        height: 80px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .compContent, .comp, .line{
+        width:330px;
+    }
+    .image4{
+        height: 80px;
+        width: 100px;
+        margin-top: 70px;
+    }
+    .conditionsOuter{
+        margin-left: 20px;
+    }
+    .conditions{
+        font-size: 15px;
+        margin-right: -15px;
+    }
+    .accounts{
+        margin-left: 0px;
+    }
 }
 @media (max-width:400px) {
+    .checkBtn{
+        margin-left: 190px;
+    }
+    .trophy1{
+        margin-left: 0px;
+        height: 55px;
+    }
+    .trophy2{
+        margin-left: -20px;
+        height: 55px;
+        margin-top: 120px;
+    }
+    .medal{
+        margin-left: 10px;
+        height: 45px;
+    }
+    .star1{
+        margin-left: 0px;
+    }
+    .star2{
+        margin-left: 70px;
+    }
+    .star3{
+        margin-left: 10px;
+    }
+    .star4{
+        margin-top: 200px;
+        margin-left: 30px;
+    }
+    .star5{
+        margin-left: 40px;
+    }
+    .Circle1{
+        width: 40px;
+        height: 80px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 40px;
+        height: 80px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .compContent, .comp, .line{
+        width:260px;
+    }
+    .image4{
+        height: 80px;
+        width: 100px;
+        margin-top: 70px;
+    }
+    .conditionsOuter{
+        margin-left: 20px;
+    }
+    .conditions{
+        font-size: 15px;
+        margin-right: -15px;
+    }
+    .accounts{
+        margin-left: 0px;
+    }
+    .competitonTitle{
+        margin-left: -15px;
+        font-size: 30px;    
+    }
+    .competitonContent{
+        font-size: 14px;
+    }
 }
 @media (max-width:350px) {
 }
