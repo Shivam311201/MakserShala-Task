@@ -1,0 +1,640 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100% !important;
+    background-color: #F3F7FC !important;
+}
+.Header1{
+    background-color: #FFCB2A;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Header2{
+    background-color: #6E07C7;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 230px;
+}
+.Header3Title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+    padding-top: 10px;
+    margin-top: -1px;
+}
+.image1{
+    height: 43px;
+    width: 50px;
+    margin:4px;
+    margin-right: 50px;
+    margin-left: 350px;
+}
+.image2{
+    height: 43px;
+    width: 120px;
+    margin:4px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+.image3{
+    height: 90px;
+    width: 120px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+}
+.image4{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.image5{
+    display: none;
+}
+.Header2Title{
+    margin-left: 70px;
+}
+.color1{
+    color: #FFCB2A;
+}
+.color2{
+    color: #fff;
+}
+.buttonSignIn{
+    background-color: #FA8F04;
+    height: 40px;
+    width: 120px;
+    border: solid 2px #FA8F04;
+    border-bottom: solid 3px #C6640F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    margin-left: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+.buttonSignIn2{
+    background-color: #FA8F04;
+    height: 40px;
+    width: 120px;
+    border: solid 2px #FA8F04;
+    border-bottom: solid 3px #C6640F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.buttonEnroll{
+    background-color: #FA8F04;
+    height: 40px;
+    width: 140px;
+    border: solid 2px #FA8F04;
+    border-bottom: solid 3px #C6640F;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.comingSoon{
+    font-size: 10px;
+}
+.competitonTitle{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+}
+.competitonContent{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    color: #383630;
+    line-height: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 140px;
+}
+.titleCol{
+    position: relative;   
+}
+.pictureStyle{
+    position: absolute;
+}
+.trophy1{
+    margin-left: 69px;
+    margin-top: 134px;
+}
+.trophy2{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.medal{
+    margin-left: 230px;
+    margin-top: 40px;   
+}
+.star1{
+    height: 15px;
+    width: 15px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.star2{
+    height: 15px;
+    width: 15px;
+    margin-top: 180px;
+    margin-left: 300px;
+    transform: rotateZ(-180deg);
+}
+.star3{
+    height: 10px;
+    width: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    transform: rotateZ(-90deg);
+}
+.star4{
+    margin-top: 160px;
+    margin-left: 230px;
+}
+.star5{
+    height: 15px;
+    width: 15px;
+    margin-top: 40px;
+    margin-left: 220px;
+    transform: rotateZ(-180deg);
+}
+.comp{
+    height: 280px;
+    width: 330px;
+}
+.CompBundle{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.saleOuter{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -280px;
+    margin-right: 20px;
+}
+.InnerDivCenter{
+    display: flex;
+    justify-content: space-around;
+}
+.sale{
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 37px;
+    border-top-right-radius: 37px;
+    height: 33px;
+    width:150px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.saleLeft{
+    background-color: #219653;
+}
+.saleEnded{
+    background-color: #EB5757;
+}
+.compContent{
+    width: 330px;
+    position:relative;
+    margin-top: 195px;
+    padding-top: 8px;
+    background-color: #fff;
+    border-bottom-left-radius: 37px;
+    border-bottom-right-radius: 37px;
+}
+.line{
+    width:330px;
+    height: 0px;
+    border: 0.3px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.CompTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.CompDetails{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.CompetitonBox{
+    height: max-content;
+    margin-bottom: 50px;
+    filter: drop-shadow(0px 19px 32px rgba(0, 26, 255, 0.08));
+}
+.CompInfo{
+    padding-left: 45px !important;
+}
+.Circle1{
+    background: linear-gradient(329.05deg, #FE8126 1.63%, #FBC10B 90.72%), #DF23FE;
+    box-shadow: -40px 82px 120px rgba(70, 27, 140, 0.19);
+    width: 60px;
+    height: 128px;
+    border-radius: 0px 100px 100px 0px;
+    margin-top: 900px;
+}
+.Circle2{
+    background: #44B7D9;
+    box-shadow: 50px 51px 120px rgba(70, 27, 140, 0.32);    
+    width: 60px;
+    height: 128px;
+    margin-top: 1250px;
+    border-radius: 100px 0px 0 100px;
+}
+svg{
+    transform: rotateX(180deg);
+}
+.footerContent{
+    z-index: 1;
+    margin-top: -100px;
+    background-color: #6308BD;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ContactTiles{
+    margin-top: 70px;
+}
+.ContactFea{
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.ContactTitle{
+    color: #F2C94C;
+    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.conditionsOuter{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.conditions{
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.FooterText{
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+    padding-left: 100px;
+    padding-right: 55px;
+    padding-bottom: 100px;
+}
+.FooterTextTitle{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.checkBtn{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    line-height: 80px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.CustomNavDesign{
+    background-color:#6E07C7;
+}
+.removeDisplay{
+    display: none !important;
+}
+@media (max-width:1370px) {
+    .image1{
+        margin-left: 300px;
+    }
+    .Header2{
+        padding-left: 200px;
+    }
+}
+@media (max-width:1300px) {
+    .image1{
+        margin-left: 280px;
+    }
+    .Header2{
+        padding-left: 170px;
+    }
+}
+@media (max-width:1250px) {
+    .image1{
+        margin-left: 250px;
+    }
+    .Header2{
+        padding-left: 140px;
+    }
+    .compContent, .comp, .line{
+        width: 315px;
+    }
+    .Circle1{
+        width: 55px;
+        height: 110px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 55px;
+        height: 110px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .buttonSignIn{
+        margin-left: 130px;
+    }
+    .saleOuter{
+        margin-right: 35px;
+    }
+    .footerContent{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (max-width:1199px) {
+    .Header2{
+        padding-left: 140px;
+    }
+    .buttonSignIn{
+        margin-left: 100px;
+    }
+    .CompInfo{
+        padding-left: 80px !important;
+    }
+    .compContent, .comp, .line{
+        width:350px;
+    }
+    .saleOuter{
+        margin-right: 72px;
+    }
+    .Circle1{
+        width: 85px;
+        height: 170px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 85px;
+        height: 170px;
+        border-radius: 150px 0px 0px 150px;
+    }
+}
+@media (max-width:1150px) {
+    .image1{
+        margin-left: 200px;
+    }
+    .Header2{
+        padding-left: 90px;
+    }
+    .buttonSignIn{
+        margin-left: 100px;
+    }
+    .trophy1{
+        margin-left: 50px;
+    }
+    .trophy2{
+        margin-left: 30px;
+    }
+    .medal{
+        margin-left: 200px;
+    }
+    .star1{
+        margin-left: 60px;
+    }
+    .star2{
+        margin-left: 250px;
+    }
+    .star3{
+        margin-left: 30px;
+    }
+    .star4{
+        margin-left: 200px;
+    }
+    .star5{
+        margin-left: 180px;
+    }
+}
+@media (max-width:1100px) {
+    .image1{
+        margin-left: 170px;
+    }
+    .image2{
+        margin-left: 150px;
+    }
+    .Header2{
+        padding-left: 110px;
+    }
+    .Header2Title{
+        margin-left: 50px;
+    }
+    .buttonSignIn{
+        margin-left: 80px;
+    }
+    .footerContent{
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+}
+@media (max-width:1050px) {
+    .image1{
+        margin-left: 160px;
+    }
+    .Header2{
+        padding-left: 90px;
+    }
+    .buttonSignIn{
+        margin-left: 100px;
+    }
+    .trophy2{
+        margin-left: 20px;
+    }
+    .star3{
+        margin-left: 20px;
+    }
+    .star4{
+        margin-left: 170px;
+    }
+    .star5{
+        margin-left: 150px;
+    }
+}
+@media (max-width:1000px) {
+    .image1{
+        margin-left: 130px;
+    }
+    .image2{
+        margin-left: 120px;
+    }
+    .Header2{
+        padding-left: 50px;
+    }
+    .buttonSignIn{
+        margin-left: 70px;  
+    }
+    .CompInfo{
+        padding-left: 10px !important;
+    }
+    .compContent, .comp, .line{
+        width:350px;
+    }
+    .saleOuter{
+        margin-right: -2px;
+    }
+    .Circle1{
+        width: 85px;
+        height: 170px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 85px;
+        height: 170px;
+        border-radius: 150px 0px 0px 150px;
+    }
+}
+@media (max-width:950px) {
+    .trophy2{
+        margin-left: -10px;
+    }
+    .medal{
+        margin-left: 150px;
+    }
+    .star1{
+        margin-left: 60px;
+    }
+    .star2{
+        margin-left: 250px;
+    }
+    .star3{
+        margin-left: 30px;
+    }
+    .star4{
+        margin-left: 140px;
+    }
+    .star5{
+        margin-left: 150px;
+    }
+    .Circle1{
+        width: 75px;
+        height: 150px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 75px;
+        height: 150px;
+        border-radius: 150px 0px 0px 150px;
+    }
+}
+@media (max-width:900px) {
+    .image1{
+        margin-left: 130px;
+    }
+    .image2{
+        margin-left: 100px;
+    }
+    .Header2{
+        padding-left: 20px;
+    }
+    .buttonSignIn{
+        margin-left: 50px;  
+    }
+    .Circle1{
+        width: 60px;
+        height: 120px;
+        border-radius: 0px 150px 150px 0px;
+    }
+    .Circle2{
+        width: 60px;
+        height: 120px;
+        border-radius: 150px 0px 0px 150px;
+    }
+    .footerContent{
+        margin-left: -70px;
+        padding-left: -25px;
+        padding-right: 35px;
+    }
+}
+@media (max-width:850px) {
+    .checkBtn{
+        display: block;
+        margin-left: 600px;
+        margin-top: 5px;
+    }
+    .image3{
+        display: none;
+    }
+    .image5{
+        display: inline;
+        height: 70px;
+        width: 90px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Header2Title,.buttonSignIn{
+        display: none;
+    }
+    .comingSoon{
+        margin-top: 8px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+}
+@media (max-width:800px) {
+}
+@media (max-width:750px) {
+}
+@media (max-width:700px) {
+}
+@media (max-width:650px) {
+}
+@media (max-width:600px) {
+}
+@media (max-width:550px) {
+}
+@media (max-width:500px) {
+}
+@media (max-width:450px) {
+}
+@media (max-width:400px) {
+}
+@media (max-width:350px) {
+}
